@@ -442,3 +442,92 @@ text-decoration-line: underline;
     text-align: left;
     text-decoration-line: underline;
     }
+
+    /* footer part style */
+    .footer-content{
+        width: 1140px;
+        height: 313px;
+        border: 2px solid red;
+        border-radius: 16px;
+        margin: 0 auto;
+        margin-top: 100px;
+        background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("../assets/handshake.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+}
+    .footer-bg-content h1{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+}
+.footer-bg-content p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* search bar style with button */
+#searchbar{
+width: 548px;
+height: 57px;
+padding: 17px 20px 17px 20px;
+margin-top: 40px;
+font-size: 16px;
+font-weight: bold;
+background-color: rgb(228, 237, 245);
+}
+
+/* button style  */
+
+#btn{
+    width: 120px;
+    height: 57px;
+    margin-top: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(228, 237, 245);
+}
+/* last title footer */
+.last-title{
+    width: 1440px;
+    height: 50px;
+    background-color: rgb(246, 248, 249);
+    margin: 0 auto;
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top: 50px;
+    padding-top: 10px;
+
+}
+
+#facebok-img{
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+#facebok-i{
+    margin: 20px;
+}
+
+
