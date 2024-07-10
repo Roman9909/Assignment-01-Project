@@ -255,4 +255,190 @@ margin-top: 10px;
 #youtube{
     padding: 40px;
 }
+
+/* My skills target style */
+
+.my-skills-target{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.myskills-title h1{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.my-skills-target p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 68px;
+} 
+.myskills-list{
+    width: 1140px;
+    height: 299px;
+    gap: 10px;
     
+}
+
+/* Skills name and style */
+.myskills-list{
+    display: flex;
+}
+.Html-title{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    
+    
+    
+}
+.css-title{
+    width: 30%;
+    height: 100%;
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.js-title{
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+.Html-title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Html-title p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.Html-title a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin-bottom: 10px;
+}
+
+/* css style */
+.css-title{
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.css-title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    
+    
+}
+.css-title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 25px;
+    
+}
+.css-title a{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+
+}
+/* javascript style */
+.js-title{
+    padding-left: 10px;
+    
+    
+}
+
+
+.js-title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.js-title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+
+.js-title a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    }
