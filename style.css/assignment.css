@@ -220,6 +220,39 @@ margin: 32px 0px;
 .video-container{
     width: 1140px;
     height: 775px;
-    border: 2px solid green;
     margin: 0 auto;
 }
+
+.video-content h1{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.video-content p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 10px;
+}
+
+/* youtube video style  */
+
+
+.youtube-video{
+    width: 1140px;
+    height: 614px;
+    border: 2px solid rgb(186, 178, 178);
+    margin-top: 58px;
+}
+#youtube{
+    padding: 40px;
+}
+    
